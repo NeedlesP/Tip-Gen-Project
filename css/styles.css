@@ -3,23 +3,30 @@
 body{
     width: auto;
     height: auto;
-    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 31%;
 }
 
 button{
-    width: 90px;
-    height:30px;
-
+margin-left: 20px ;
+margin-top: 10px;
 }
 
 #everythingWrapper{
-    width: 800px;
-    height: 800px;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-content: center;
 }
-
-#people{
-    margin-left: 5px;
+#total{
+    margin: 0px auto;
+}
+#percent{
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.input-field{
+    width: 30vw;
 }
