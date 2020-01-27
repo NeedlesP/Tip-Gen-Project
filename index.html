@@ -6,13 +6,22 @@
         <meta charset="UTF-8">
         <meta lang="en">
         <meta name="viewport" content= width=device-width, intial-scale = 1.0>
-
+ 
 
 
 
     </head>
     <body>
-        
+        <div id="darkModeWrapper">
+            <label for="ChangeTheme">
+                <input type="checkbox" id="ChangeTheme" /> 
+                <span class="slide"></span>
+            </label>
+        <div class="txt">
+            <p>White</p>
+            <p>Dark</p>
+          </div>
+        </div>
             <div id="everythingWrapper">
                 <div id="title">Tip Calculator</div>
                 <div class="input-icons"> 
@@ -22,6 +31,7 @@
                     <input id="percent" class="input-field" placeholder='Tipping'type="text"> <br>
                     <button id="calculate">Calculate</button>
             </div>
-        </div>    
+        </div>
+        <script src='js/theme.js'></script>    
     </body>
     
