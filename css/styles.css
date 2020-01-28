@@ -51,10 +51,14 @@ span.slide:before {
     transform: translatex(-50px);
 }
 .txt p:nth-child(1) {
-    color: grey;
+    color: rgb(243, 76, 76);
     font-weight: bold;
     font-size: 1.1em;
     transition: 0.5s;
+}
+.txt p:nth-child(2){
+    color: rgb(0, 225, 255);
+    font-weight: bold;
 }
 #ChangeTheme:checked + span.slide:before {
     transform: translatex(40px);
@@ -65,11 +69,11 @@ body.dark-mode {
     color: white;
 }
 .dark-mode .txt p:nth-child(1){
-    color: #000;
+    color: rgb(0, 225, 255);
     font-weight: normal;
 }
 .dark-mode .txt p:nth-child(2){
-    color: grey;
+    color: rgb(243, 76, 76);
     font-weight: bold;
 }
   
