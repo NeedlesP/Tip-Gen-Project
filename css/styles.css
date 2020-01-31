@@ -43,7 +43,7 @@ span.slide:before {
     border-radius: 50%;
     top: -2px;
     left: 0px;
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 7px 1px;
 }
 .txt {
